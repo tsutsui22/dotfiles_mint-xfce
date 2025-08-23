@@ -1,0 +1,35 @@
+! Clear the lock modifier from Caps Lock
+clear lock
+clear mod3
+
+! Assign a new modifier (e.g., Hyper_L) to the Caps Lock keycode
+keycode 66 = Mode_switch
+
+! Add Hyper_L to the modifier map (you can choose any unused modifier like mod3 or mod4)
+add mod3 = Mode_switch
+
+! Remap 'h' when pressed with the new modifier to the Left arrow key
+keysym h = h H Left
+keysym j = j J Down
+keysym k = k K Up
+keysym l = l L Right
+
+keysym i = i I Home
+keysym a = a A End
+
+keysym Tab = Tab ISO_Left_Tab Escape
+
+
+keycode 49 = grave asciitilde Escape
+keycode 10 = 1 exclam F1
+keycode 11 = 2 at F2
+keycode 12 = 3 numbersign F3
+keycode 13 = 4 dollar F4
+keycode 14 = 5 percent F5
+keycode 15 = 6 asciicircum F6
+keycode 16 = 7 ampersand F7
+keycode 17 = 8 asterisk F8
+keycode 18 = 9 parenleft F9
+keycode 19 = 0 parenright F10
+keycode 20 = minus underscore F11
+keycode 21 = equal plus F12
