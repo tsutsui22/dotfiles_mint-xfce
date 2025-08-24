@@ -2,5 +2,5 @@
 Type=Application
 Name=Xmodmap Remap
 Exec=bash -c "sleep 5 && xmodmap ~/.Xmodmap"
-Terminal=true
+Terminal=false
 Comment=Load custom X keyboard mappings
