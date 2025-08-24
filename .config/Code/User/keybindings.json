@@ -1,0 +1,30 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+j alt+j",
+        "command": "toggleVim"
+    },
+    {
+        "key": "alt+q",
+        "command": "toggleVim"
+    },
+    {
+        "key": "capslock",
+        "command": "extension.vim_escape"
+    },
+    {
+        "key": "ctrl+shift+alt+enter",
+        "command": "notebook.execute",
+        "when": "config.notebook.globalToolbar && !notebookHasSomethingRunning || config.notebook.globalToolbar && notebookInterruptibleKernel && !notebookHasSomethingRunning || config.notebook.globalToolbar && !notebookHasSomethingRunning && !notebookInterruptibleKernel"
+    },
+    {
+        "key": "ctrl+shift+alt+enter",
+        "command": "-jupyter.runAndDebugCell",
+        "when": "isWorkspaceTrusted && jupyter.ispythonnotebook && !notebookKernel && notebookCellType == 'code' || isWorkspaceTrusted && jupyter.ispythonnotebook && notebookCellType == 'code' && notebookKernel =~ /^ms-toolsai.jupyter\\// && resource not in 'jupyter.notebookeditor.debugDocuments'"
+    },
+    {
+        "key": "alt+j c",
+        "command": "notebook.cell.insertCodeCellBelow",
+        "when": "notebookEditable && config.notebook.insertToolbarLocation != 'betweenCells' && config.notebook.insertToolbarLocation != 'hidden'"
+    }
+]

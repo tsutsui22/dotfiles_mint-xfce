@@ -1,0 +1,27 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": false,
+        "vim.handleKeys": {
+            "<C-r>": true,
+            "<C-o>": true,
+        },
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+    ],
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "jsonc": false
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "git.autofetch": true,
+}
