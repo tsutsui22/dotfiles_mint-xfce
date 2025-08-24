@@ -15,7 +15,7 @@ keysym k = k K Up
 keysym l = l L Right
 
 keysym i = i I Home
-keysym a = a A End
+keysym n = n N End
 
 keysym Tab = Tab ISO_Left_Tab Escape
 
@@ -33,3 +33,4 @@ keycode 18 = 9 parenleft F9
 keycode 19 = 0 parenright F10
 keycode 20 = minus underscore F11
 keycode 21 = equal plus F12
+keycode  22 = BackSpace Delete Delete
