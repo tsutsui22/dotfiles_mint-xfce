@@ -1,4 +1,4 @@
-dotfiles (configuration files) for linux mint, xfce environment. but should work other linux distros.
+this is a dotfiles (configuration files) for linux mint, xfce env. but should work on other linux distros.
 * xmodmap for keybindings.
   capslock is hell of a shit. xmodmap replace it with Mod3 key, enabling to assign keybindings with the key.
   for example, capslock(Mod3) + j indicates "left arrow" key function, by configuring the .Xmodmap file.
