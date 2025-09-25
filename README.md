@@ -9,9 +9,8 @@ dotfiles (configuration files) for linux mint, xfce environment. but should work
   in vscode, i use vim extension. this is only for that setup.
   
 * install.sh for automation.
-  I don't have to route them thanks to this. but, i remember that i have to create some of the files. there should be error message what is lacking. please follow that instruction.
-  
-  ** important!
+  I don't have to route them thanks to this. but, i remember that i have to create some of the files. there should be error message what is lacking. please follow that instruction.~
+  - important!
     after installed on ~ dir, rename the directories name "dotfiles_mint-xfce" to "dotfiles". otherwise, install.sh won't recognize!
 
 if you have spare time and being bored, enhance the automation.
